@@ -1,0 +1,177 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/hhaddouc/Desktop/so_long/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(NAME)	_libft/Makefile	/^$(NAME): $(OBJS)$/;"	t
+AR	_libft/Makefile	/^AR = ar -rs$/;"	m
+BONUS	_libft/Makefile	/^BONUS  = ft_lstadd_back_bonus.c ft_lstclear_bonus.c ft_lstdelone_bonus.c \\$/;"	m
+BUFFER_SIZE	include/get_next_line.h	/^# define BUFFER_SIZE /;"	d
+CC	Makefile	/^CC        := gcc$/;"	m
+CC	_libft/Makefile	/^CC = cc$/;"	m
+CFLAGS	_libft/Makefile	/^CFLAGS = -Wall -Wextra -Werror $/;"	m
+FLAGS	Makefile	/^FLAGS    := -Wall -Wextra -Werror $/;"	m
+FT_PRINTF_H	include/ft_printf.h	/^# define FT_PRINTF_H$/;"	d
+GET_NEXT_LINE_H	include/get_next_line.h	/^# define GET_NEXT_LINE_H$/;"	d
+LIBFT_H	_libft/libft.h	/^# define LIBFT_H$/;"	d
+LIBFT_H	include/libft.h	/^# define LIBFT_H$/;"	d
+NAME	Makefile	/^NAME        := so_long$/;"	m
+NAME	_libft/Makefile	/^NAME = libft.a$/;"	m
+OBJS	_libft/Makefile	/^OBJS = $(SRCS:.c=.o)$/;"	m
+OBJsB	_libft/Makefile	/^OBJsB= $(BONUS:.c=.o)$/;"	m
+SO_LONG_H	include/so_long.h	/^# define SO_LONG_H$/;"	d
+SRCS	Makefile	/^SRCS        :=      _ft_printf\/ft_itoa.c \\$/;"	m
+SRCS	_libft/Makefile	/^SRCS =	ft_atoi.c ft_bzero.c ft_calloc.c \\$/;"	m
+_ft_strchr	_get_next_line/get_next_line_utils.c	/^char	*_ft_strchr(char *s, int c)$/;"	f	typeref:typename:char *
+_ft_strjoin	_get_next_line/get_next_line_utils.c	/^char	*_ft_strjoin(char *s1, char *s2)$/;"	f	typeref:typename:char *
+_ft_strlen	_get_next_line/get_next_line_utils.c	/^size_t	_ft_strlen(const char *s)$/;"	f	typeref:typename:size_t
+all	_libft/Makefile	/^all : $(NAME)$/;"	t
+arr_count	_libft/ft_split.c	/^static size_t	arr_count(char const *s, char c)$/;"	f	typeref:typename:size_t	file:
+background	include/so_long.h	/^	void	*background;$/;"	m	struct:s_images	typeref:typename:void *
+bonus	_libft/Makefile	/^bonus : $(OBJsB)$/;"	t
+box	include/so_long.h	/^	void	*box;$/;"	m	struct:s_images	typeref:typename:void *
+check_format	utils/utils.c	/^void	check_format(char *filename)$/;"	f	typeref:typename:void
+check_map	utils/utils.c	/^void	check_map(t_map_data *map_data)$/;"	f	typeref:typename:void
+check_map_components	utils/utils.c	/^void	check_map_components(char *map_data)$/;"	f	typeref:typename:void
+check_newlines	utils/sub_utils.c	/^void	check_newlines(char *map)$/;"	f	typeref:typename:void
+clean	_libft/Makefile	/^clean :$/;"	t
+close_win	utils/sub_mlx_utils.c	/^int	close_win(t_vars *game)$/;"	f	typeref:typename:int
+coin	include/so_long.h	/^	void	*coin;$/;"	m	struct:s_images	typeref:typename:void *
+content	_libft/libft.h	/^	void			*content;$/;"	m	struct:s_list	typeref:typename:void *
+content	include/libft.h	/^	void			*content;$/;"	m	struct:s_list	typeref:typename:void *
+count_char	_libft/ft_split.c	/^static void	count_char(const char *s, char c, char	**split)$/;"	f	typeref:typename:void	file:
+display_map_components	utils/mlx_utils.c	/^void	display_map_components(char **map, t_images *images, t_mlx_data *mlx)$/;"	f	typeref:typename:void
+display_walls	utils/sub_mlx_utils.c	/^void	display_walls(char components,$/;"	f	typeref:typename:void
+door	include/so_long.h	/^	void	*door;$/;"	m	struct:s_images	typeref:typename:void *
+fclean	_libft/Makefile	/^fclean : clean$/;"	t
+fd	include/so_long.h	/^	int		fd;$/;"	m	struct:s_data	typeref:typename:int
+files.associations	.vscode/settings.json	/^    "files.associations": {$/;"	o
+ft_atoi	_libft/ft_atoi.c	/^int	ft_atoi(const char *str)$/;"	f	typeref:typename:int
+ft_bzero	_libft/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f	typeref:typename:void
+ft_calloc	_libft/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f	typeref:typename:void *
+ft_fill_res	_ft_printf/ft_itoa.c	/^static void	ft_fill_res(int size, int offset, int n, char *res)$/;"	f	typeref:typename:void	file:
+ft_free	_libft/ft_split.c	/^static int	ft_free(char **split, size_t j)$/;"	f	typeref:typename:int	file:
+ft_get_size	_ft_printf/ft_itoa.c	/^static int	ft_get_size(int n)$/;"	f	typeref:typename:int	file:
+ft_hex_len	_ft_printf/ft_print_hex.c	/^int	ft_hex_len(unsigned	int num)$/;"	f	typeref:typename:int
+ft_isalnum	_libft/ft_isalnum.c	/^int	ft_isalnum(int c)$/;"	f	typeref:typename:int
+ft_isalpha	_libft/ft_isalpha.c	/^int	ft_isalpha(int c)$/;"	f	typeref:typename:int
+ft_isascii	_libft/ft_isascii.c	/^int	ft_isascii(int c)$/;"	f	typeref:typename:int
+ft_isdigit	_libft/ft_isdigit.c	/^int	ft_isdigit(int c)$/;"	f	typeref:typename:int
+ft_isprint	_libft/ft_isprint.c	/^int	ft_isprint(int c)$/;"	f	typeref:typename:int
+ft_itoa	_ft_printf/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f	typeref:typename:char *
+ft_lstadd_back	_libft/ft_lstadd_back_bonus.c	/^void	ft_lstadd_back(t_list	**lst, t_list *new)$/;"	f	typeref:typename:void
+ft_lstadd_front	_libft/ft_lstadd_front_bonus.c	/^void	ft_lstadd_front(t_list **lst, t_list *new)$/;"	f	typeref:typename:void
+ft_lstclear	_libft/ft_lstclear_bonus.c	/^void	ft_lstclear(t_list **lst, void (*del)(void*))$/;"	f	typeref:typename:void
+ft_lstdelone	_libft/ft_lstdelone_bonus.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void*))$/;"	f	typeref:typename:void
+ft_lstiter	_libft/ft_lstiter_bonus.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/;"	f	typeref:typename:void
+ft_lstlast	_libft/ft_lstlast_bonus.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f	typeref:typename:t_list *
+ft_lstmap	_libft/ft_lstmap_bonus.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))$/;"	f	typeref:typename:t_list *
+ft_lstnew	_libft/ft_lstnew_bonus.c	/^t_list	*ft_lstnew(void *content)$/;"	f	typeref:typename:t_list *
+ft_lstsize	_libft/ft_lstsize_bonus.c	/^int	ft_lstsize(t_list *lst)$/;"	f	typeref:typename:int
+ft_map_strchr	utils/sub_mlx_utils.c	/^int	ft_map_strchr(char **map)$/;"	f	typeref:typename:int
+ft_maplen	utils/sub_utils.c	/^int	ft_maplen(char **map)$/;"	f	typeref:typename:int
+ft_memchr	_libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f	typeref:typename:void *
+ft_memcmp	_libft/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f	typeref:typename:int
+ft_memcpy	_libft/ft_memcpy.c	/^void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n)$/;"	f	typeref:typename:void *
+ft_memmove	_libft/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t n)$/;"	f	typeref:typename:void *
+ft_memset	_libft/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f	typeref:typename:void *
+ft_num_len	_ft_printf/ft_print_unsigned.c	/^int	ft_num_len(unsigned	int num)$/;"	f	typeref:typename:int
+ft_print	_ft_printf/ft_printf.c	/^int	ft_print(va_list lp, const char c)$/;"	f	typeref:typename:int
+ft_print_ad	_ft_printf/ft_print_ad.c	/^int	ft_print_ad(unsigned long long ptr)$/;"	f	typeref:typename:int
+ft_print_hex	_ft_printf/ft_print_hex.c	/^int	ft_print_hex(unsigned int num, const char c)$/;"	f	typeref:typename:int
+ft_print_unsigned	_ft_printf/ft_print_unsigned.c	/^int	ft_print_unsigned(unsigned int n)$/;"	f	typeref:typename:int
+ft_printf	_ft_printf/ft_printf.c	/^int	ft_printf(const char *str, ...)$/;"	f	typeref:typename:int
+ft_ptr_len	_ft_printf/ft_print_ad.c	/^int	ft_ptr_len(unsigned long long num)$/;"	f	typeref:typename:int
+ft_put_hex	_ft_printf/ft_print_hex.c	/^void	ft_put_hex(unsigned int num, const char c)$/;"	f	typeref:typename:void
+ft_put_hex_	_ft_printf/ft_print_ad.c	/^void	ft_put_hex_(unsigned long long num)$/;"	f	typeref:typename:void
+ft_putchar	_ft_printf/ft_printf_utils.c	/^int	ft_putchar(char c)$/;"	f	typeref:typename:int
+ft_putchar_fd	_libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f	typeref:typename:void
+ft_putendl_fd	_libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char const *s, int fd)$/;"	f	typeref:typename:void
+ft_putnbr	_ft_printf/ft_printf_utils.c	/^int	ft_putnbr(int n)$/;"	f	typeref:typename:int
+ft_putnbr_fd	_libft/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f	typeref:typename:void
+ft_putstr	_ft_printf/ft_printf_utils.c	/^int	ft_putstr(char *str)$/;"	f	typeref:typename:int
+ft_putstr_fd	_libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f	typeref:typename:void
+ft_split	_libft/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f	typeref:typename:char **
+ft_strchr	_libft/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f	typeref:typename:char *
+ft_strdup	_libft/ft_strdup.c	/^char	*ft_strdup(const char *src)$/;"	f	typeref:typename:char *
+ft_striteri	_libft/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f	typeref:typename:void
+ft_strjoin	_libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f	typeref:typename:char *
+ft_strlcat	_libft/ft_strlcat.c	/^size_t	ft_strlcat(char *dst, const char *src, size_t size)$/;"	f	typeref:typename:size_t
+ft_strlcpy	_libft/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t size)$/;"	f	typeref:typename:size_t
+ft_strlen	_libft/ft_strlen.c	/^size_t	ft_strlen(const char *s)$/;"	f	typeref:typename:size_t
+ft_strmapi	_libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f	typeref:typename:char *
+ft_strncmp	_libft/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f	typeref:typename:int
+ft_strnstr	_libft/ft_strnstr.c	/^char	*ft_strnstr(const char	*big, const char *little, size_t len)$/;"	f	typeref:typename:char *
+ft_strrchr	_libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f	typeref:typename:char *
+ft_strtrim	_libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f	typeref:typename:char *
+ft_substr	_libft/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f	typeref:typename:char *
+ft_test	_ft_printf/ft_printf.c	/^int	ft_test(char c)$/;"	f	typeref:typename:int
+ft_tolower	_libft/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f	typeref:typename:int
+ft_toupper	_libft/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f	typeref:typename:int
+ft_uitoa	_ft_printf/ft_print_unsigned.c	/^char	*ft_uitoa(unsigned int n)$/;"	f	typeref:typename:char *
+get_next_line	_get_next_line/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f	typeref:typename:char *
+get_next_line.h	.vscode/settings.json	/^        "get_next_line.h": "c"$/;"	s	object:files.associations
+get_player_index	utils/sub_utils.c	/^void	get_player_index(int *x, int *y, char **map)$/;"	f	typeref:typename:void
+height_index	include/so_long.h	/^	int		height_index;$/;"	m	struct:s_mlx_data	typeref:typename:int
+image_height	include/so_long.h	/^	int		image_height;$/;"	m	struct:s_mlx_data	typeref:typename:int
+image_width	include/so_long.h	/^	int		image_width;$/;"	m	struct:s_mlx_data	typeref:typename:int
+images	include/so_long.h	/^	t_images	images;	$/;"	m	struct:s_vars	typeref:typename:t_images
+images_init	utils/mlx_utils.c	/^void	images_init(t_images *images, t_mlx_data *mlx)$/;"	f	typeref:typename:void
+init_data	utils/utils.c	/^void	init_data(t_map_data *map_data, char	*filename )$/;"	f	typeref:typename:void
+is_rectangular	utils/utils.c	/^void	is_rectangular(char **map)$/;"	f	typeref:typename:void
+isclosed_surroundedbywalls	utils/sub_utils.c	/^void	isclosed_surroundedbywalls(char **map)$/;"	f	typeref:typename:void
+left_fun	_get_next_line/get_next_line.c	/^char	*left_fun(int fd, char *left)$/;"	f	typeref:typename:char *
+main	so_long.c	/^int	main(int argc, char **argv)$/;"	f	typeref:typename:int
+makefile.extensionOutputFolder	.vscode/settings.json	/^    "makefile.extensionOutputFolder": ".\/.vscode",$/;"	s
+map	include/so_long.h	/^	char	*map;$/;"	m	struct:s_data	typeref:typename:char *
+map_data	include/so_long.h	/^	t_map_data	map_data;$/;"	m	struct:s_vars	typeref:typename:t_map_data
+mlx	include/so_long.h	/^	t_mlx_data	mlx;$/;"	m	struct:s_vars	typeref:typename:t_mlx_data
+mlx	include/so_long.h	/^	void	*mlx;$/;"	m	struct:s_mlx_data	typeref:typename:void *
+mlx_win	include/so_long.h	/^	void	*mlx_win;$/;"	m	struct:s_mlx_data	typeref:typename:void *
+move_down	utils/mlx_moves.c	/^void	move_down(int *x, int *y, char **map)$/;"	f	typeref:typename:void
+move_left	utils/mlx_moves.c	/^void	move_left(int *x, int *y, char **map)$/;"	f	typeref:typename:void
+move_player	utils/sub_utils.c	/^int	move_player(int keycode, t_vars *game)$/;"	f	typeref:typename:int
+move_right	utils/mlx_moves.c	/^void	move_right(int *x, int *y, char **map)$/;"	f	typeref:typename:void
+move_up	utils/mlx_moves.c	/^void	move_up(int *x, int *y, char **map)$/;"	f	typeref:typename:void
+next	_libft/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list *
+next	include/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list *
+odoor	include/so_long.h	/^	void	*odoor;$/;"	m	struct:s_images	typeref:typename:void *
+player_down	include/so_long.h	/^	void	*player_down;$/;"	m	struct:s_images	typeref:typename:void *
+player_left	include/so_long.h	/^	void	*player_left;$/;"	m	struct:s_images	typeref:typename:void *
+player_right	include/so_long.h	/^	void	*player_right;	$/;"	m	struct:s_images	typeref:typename:void *
+player_up	include/so_long.h	/^	void	*player_up;$/;"	m	struct:s_images	typeref:typename:void *
+print_move	utils/mlx_moves.c	/^void	print_move(void)$/;"	f	typeref:typename:void
+put_components	utils/mlx_utils.c	/^void	put_components(char components,$/;"	f	typeref:typename:void
+put_exit	utils/mlx_utils.c	/^void	put_exit(char components,$/;"	f	typeref:typename:void
+re	_libft/Makefile	/^re : fclean all$/;"	t
+rock	include/so_long.h	/^	void	*rock;$/;"	m	struct:s_images	typeref:typename:void *
+s_data	include/so_long.h	/^typedef struct s_data$/;"	s
+s_images	include/so_long.h	/^typedef struct s_images$/;"	s
+s_list	_libft/libft.h	/^typedef struct s_list$/;"	s
+s_list	include/libft.h	/^typedef struct s_list$/;"	s
+s_mlx_data	include/so_long.h	/^typedef struct s_mlx_data$/;"	s
+s_vars	include/so_long.h	/^typedef struct s_vars$/;"	s
+sub_display_walls	utils/sub_mlx_utils.c	/^void	sub_display_walls(char components,$/;"	f	typeref:typename:void
+t_images	include/so_long.h	/^}	t_images;$/;"	t	typeref:struct:s_images
+t_list	_libft/libft.h	/^}	t_list;$/;"	t	typeref:struct:s_list
+t_list	include/libft.h	/^}	t_list;$/;"	t	typeref:struct:s_list
+t_map_data	include/so_long.h	/^}	t_map_data;$/;"	t	typeref:struct:s_data
+t_mlx_data	include/so_long.h	/^}	t_mlx_data;$/;"	t	typeref:struct:s_mlx_data
+t_vars	include/so_long.h	/^}	t_vars;$/;"	t	typeref:struct:s_vars
+two_dmap	include/so_long.h	/^	char	**two_dmap;$/;"	m	struct:s_data	typeref:typename:char **
+wall_down_left_corner	include/so_long.h	/^	void	*wall_down_left_corner;$/;"	m	struct:s_images	typeref:typename:void *
+wall_down_mid	include/so_long.h	/^	void	*wall_down_mid;$/;"	m	struct:s_images	typeref:typename:void *
+wall_down_right_corner	include/so_long.h	/^	void	*wall_down_right_corner;$/;"	m	struct:s_images	typeref:typename:void *
+wall_init	utils/mlx_utils.c	/^void	wall_init(t_images *images, t_mlx_data *mlx)$/;"	f	typeref:typename:void
+wall_left	include/so_long.h	/^	void	*wall_left;$/;"	m	struct:s_images	typeref:typename:void *
+wall_right	include/so_long.h	/^	void	*wall_right;$/;"	m	struct:s_images	typeref:typename:void *
+wall_up_left_corner	include/so_long.h	/^	void	*wall_up_left_corner;$/;"	m	struct:s_images	typeref:typename:void *
+wall_up_mid	include/so_long.h	/^	void	*wall_up_mid;$/;"	m	struct:s_images	typeref:typename:void *
+wall_up_right_corner	include/so_long.h	/^	void	*wall_up_right_corner;$/;"	m	struct:s_images	typeref:typename:void *
+width_index	include/so_long.h	/^	int		width_index;$/;"	m	struct:s_mlx_data	typeref:typename:int
