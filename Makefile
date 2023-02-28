@@ -3,6 +3,7 @@ B_NAME        := bonus/so_long
 CC        := gcc
 FLAGS    := -Wall -Wextra -Werror -Imlx -lmlx -framework OpenGL -framework AppKit
 
+
 ################################################################################
 #                                 PROGRAM'S SRCS                               #
 ################################################################################
