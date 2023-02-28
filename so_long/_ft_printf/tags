@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/hhaddouc/Desktop/so_long/ft_printf/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ft_fill_res	ft_itoa.c	/^static void	ft_fill_res(int size, int offset, int n, char *res)$/;"	f	typeref:typename:void	file:
+ft_get_size	ft_itoa.c	/^static int	ft_get_size(int n)$/;"	f	typeref:typename:int	file:
+ft_hex_len	ft_print_hex.c	/^int	ft_hex_len(unsigned	int num)$/;"	f	typeref:typename:int
+ft_itoa	ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f	typeref:typename:char *
+ft_num_len	ft_print_unsigned.c	/^int	ft_num_len(unsigned	int num)$/;"	f	typeref:typename:int
+ft_print	ft_printf.c	/^int	ft_print(va_list lp, const char c)$/;"	f	typeref:typename:int
+ft_print_ad	ft_print_ad.c	/^int	ft_print_ad(unsigned long long ptr)$/;"	f	typeref:typename:int
+ft_print_hex	ft_print_hex.c	/^int	ft_print_hex(unsigned int num, const char c)$/;"	f	typeref:typename:int
+ft_print_unsigned	ft_print_unsigned.c	/^int	ft_print_unsigned(unsigned int n)$/;"	f	typeref:typename:int
+ft_printf	ft_printf.c	/^int	ft_printf(const char *str, ...)$/;"	f	typeref:typename:int
+ft_ptr_len	ft_print_ad.c	/^int	ft_ptr_len(unsigned long long num)$/;"	f	typeref:typename:int
+ft_put_hex	ft_print_hex.c	/^void	ft_put_hex(unsigned int num, const char c)$/;"	f	typeref:typename:void
+ft_put_hex_	ft_print_ad.c	/^void	ft_put_hex_(unsigned long long num)$/;"	f	typeref:typename:void
+ft_putchar	ft_printf_utils.c	/^int	ft_putchar(char c)$/;"	f	typeref:typename:int
+ft_putnbr	ft_printf_utils.c	/^int	ft_putnbr(int n)$/;"	f	typeref:typename:int
+ft_putstr	ft_printf_utils.c	/^int	ft_putstr(char *str)$/;"	f	typeref:typename:int
+ft_test	ft_printf.c	/^int	ft_test(char c)$/;"	f	typeref:typename:int
+ft_uitoa	ft_print_unsigned.c	/^char	*ft_uitoa(unsigned int n)$/;"	f	typeref:typename:char *
